@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>CARD</title>
+</head>
+<body>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="producto__card">
+        <img src="https://imgs.search.brave.com/2HXZy08HUy6d15e5jCYAgdYnWr5YCh11TtQT7cbbQWw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmV6/bmV0c2hvcC5jb20u/YXUvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjQvMDkvZ2FtaW5n/a2V5YmQud2VicD9m/aXQ9ODAwLDgwMCZz/c2w9MQ" class="producto__imagen" alt="Teclado Machenike">
+        <div class="producto__body">
+          <h5>Teclado Machinike 500</h5>
+          <p>Teclado mecanico con iluminación</p>
+          <a href="#" class="btn btn-primary producto__btn" data-bs-toggle="modal" data-bs-target="#productoModal">
+            Conoce más del producto
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="productoModal" tabindex="-1" aria-labelledby="productoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content producto-modal">
+      <div class="modal-header">
+        <h5 class="modal-title" id="productoModalLabel">Teclado Machenike 500</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="https://imgs.search.brave.com/2HXZy08HUy6d15e5jCYAgdYnWr5YCh11TtQT7cbbQWw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LmV6/bmV0c2hvcC5jb20u/YXUvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjQvMDkvZ2FtaW5n/a2V5YmQud2VicD9m/aXQ9ODAwLDgwMCZz/c2w9MQ" class="producto-modal__img" alt="Teclado Machenike">
+        <div class="producto-modal__info">
+          <ul>
+            <li>Iluminación RGB personalizable</li>
+            <li>Switches mecánicos de alta durabilidad</li>
+            <li>Diseño ergonómico con reposamuñecas</li>
+            <li>Conectividad USB-C</li>
+            <li>Compatibilidad con software de personalización</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
